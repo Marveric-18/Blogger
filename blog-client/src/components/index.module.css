@@ -1,0 +1,27 @@
+/* BlogList Style */
+
+.BlogPostList-EachBlock{
+    margin: 10px;
+    min-height: 20vh;
+}
+
+.BlogPostList-EachBlock:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    cursor: pointer;
+}
+
+
+/* BlogPost Style */
+
+.Blog{
+    min-height: 60vh;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+.BlogTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.BlogContent{
+    font-family: 'Courier New', Courier, monospace
+}

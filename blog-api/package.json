@@ -1,0 +1,39 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "A blog API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "blog",
+    "restful",
+    "api",
+    "apis",
+    "blogger",
+    "aws",
+    "s3"
+  ],
+  "author": "Marven Parmar",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.772.0",
+    "@aws-sdk/client-s3": "^3.772.0",
+    "@aws-sdk/s3-request-presigner": "^3.772.0",
+    "aws-sdk": "^2.1692.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.2",
+    "nodemon": "^3.1.9",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
