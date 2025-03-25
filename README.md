@@ -6,6 +6,7 @@ The Project is devided into two services
 - blogger-api Backend Layer
 - blogger-client Frontend Layer
 
+[![Checkout working BloggerMini]()](https://drive.google.com/file/d/1mzAdgMKene4GOwjGfr0kE4-lPnqC41jj/view?usp=sharing)
 
 ## Backend Layer - blogger-api
 
